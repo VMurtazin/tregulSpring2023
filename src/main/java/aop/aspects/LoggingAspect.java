@@ -8,8 +8,14 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class LoggingAspect {
 
-    @Before("execution(public void getBook())")//выражение называется Poincut
-    public void beforeGetBookAdvice(){
-        System.out.println("beforeGetBookAdvice:попытка получить книгу");
-    }
+
+
+
+
+//    @Before("execution(public void get*(String))")//выражение называется Poincut
+//    public void beforeGetBookAdvice(){
+//        System.out.println("beforeGetBookAdvice:попытка получить книгу");
+//    }
+
+
 }
