@@ -11,7 +11,7 @@ public class Test1 {
 
         uniLibrary.getBook();
         uniLibrary.returnMagazine();
-        uniLibrary.addBook();
+        //uniLibrary.addBook();
 
 
 //        schoolLibrary.getBook();
